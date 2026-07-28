@@ -1,0 +1,15 @@
+body {
+    font-family: monospace;
+    font-size: 16px;
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+a { 
+    color: #44ee00;
+}
+
+a:hover {
+    color: #edad00;
+}
