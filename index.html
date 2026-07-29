@@ -3,12 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>jswin.org</title>
+    <title>Jakub Świniarski</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>jswin.org</h1>
-    <h2>I build things.</h2>
-    <a href="https://github.com/jswnr" target="_blank" rel="noopener noreferrer">GitHub</a>
+    <div class="wrap">
+        <header>
+            <h1>Jakub Świniarski</h1>
+            <p>Electronics student • Based in Poland</p>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>About me</h2>
+                <p>I'm currently studying Electronics at the Warsaw University of Technology.</p>
+                <ul>
+                    <li><b>Tools: </b>KiCad, OpenSCAD, Neovim</li>
+                    <li><b>Programming languages: </b>C, C++</li>
+                </ul>
+            </section>
+
+            <section class="card">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="https://github.com/jswnr" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>© <span id="year"></span> Jakub Świniarski</p>
+        </footer>
+    </div>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
