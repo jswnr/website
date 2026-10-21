@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Jakub Świniarski</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <h1>Jakub Świniarski</h1>
+            <p class="subtitle">Electronics student • Based in Poland</p>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>About me</h2>
+                <p>I'm currently studying Electronics at the Warsaw University of Technology.</p>
+            </section>
+
+            <section class="card">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="https://github.com/jswnr">GitHub</a></li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>© <span id="year"></span> Jakub Świniarski</p>
+        </footer>
+    </div>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
