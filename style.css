@@ -26,6 +26,7 @@ h2 {
 p {
     color: var(--muted);
     margin: 1rem 0 0 0;
+    line-height: 1.5;
 }
 
 a {
@@ -33,7 +34,7 @@ a {
     border-radius: 4px;
     text-decoration: underline;
     text-decoration-thickness: 1px;
-    text-underline-offset: 0.1em;
+    text-underline-offset: 0.3em;
 }
 
 a:hover {
@@ -41,6 +42,7 @@ a:hover {
 }
 
 a:focus-visible {
+    text-decoration: none;
     outline: 2px solid var(--accent);
     outline-offset: 2px;
 }
